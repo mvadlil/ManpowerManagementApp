@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupportAct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="80dp">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:background="@drawable/bg_gradient_mygreen"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="44dp"
+                android:src="@drawable/support"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/bg_btn_white_primary"
+                android:orientation="vertical"
+                android:paddingLeft="24dp"
+                android:paddingTop="30dp"
+                android:paddingRight="24dp"
+                android:paddingBottom="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/mregular"
+                    android:text="Customer Support"
+                    android:textAlignment="center"
+                    android:textColor="@color/MyBlack"
+                    android:textSize="20sp" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="#EDEDED" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="1. Apa itu aplikasi Manpower Management?"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/mregular"
+                    android:text="Aplikasi LinkAja adalah Aplikasi yang bergerak di bidang perekrutan Tour Leader yang akan memudahkanmu dalam melamar menjadi Tour Leader"/>
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="2. Ada apa saja di aplikasi Manpower Management?"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/mregular"
+                    android:text="Saat ini fitur yang terdapat di dalam layanan Manpower Management adalah user bisa langsung melihat pekerjaan yang sedang dilelang untuk dilamar dan user juga bisa langsung melamar, setelah user melamar, pekerjaan yang di lamar akan ada di my profile, my job, dan user akan segera di hubungi oleh admin tour kami bila user diterima menjadi Tour Leader pada suatu Tour."/>
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="3. Apa yang dapat dilakukan setelah registrasi?"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/mregular"
+                    android:text="Setelah melakukan registrasi, kamu langsung dapat menikmati layanan melamar pekerjaan dan update profilmu."/>
+
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="4. Apa yang perlu diperhatikan saat melamar?"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/mregular"
+                    android:text="Pastikan saat melamar pekerjaan, kamu memperhatikan waktu atau periode dari tour yang kamu lamar, karena bila kamu diterima menjadi tour leader, kamu harus mengunci periode tour dan siap menjadi Tour Leader ditanggal yang dilamar. Lalu persiapkan mental dan pengetahuan juga ya untuk negara tujuan atau tour kamu nanti."/>
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="5. Apa Boleh melamar walau belum memiliki pengalaman?"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/mregular"
+                    android:text="Ya, tentu saja boleh, setelah melamar, kamu akan direview oleh team Tour kami, dan akan dibimbing agar kamu bisa menjalani tugas kamu dengan baik."/>
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="6. Bagaimana dengan pendapatan Tour Leader/ tour fee nya?"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/mregular"
+                    android:text="Setelah kamu dikonfirmasi mendapatkan pekerjaan, kamu akan dihubungi oleh team kami dan akan diberikan rincian Fee Tour leader dan uang petty cash yang akan kamu gunakan saat Tour Berjalan nanti."/>
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/mmedium"
+                    android:text="7. Apa ada biaya yang dikeluarkan untuk melamar pekerjaan diaplikasi ini?"/>
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/mregular"
+                    android:text="Saat ini tidak ada biaya apapun untuk menggunakan aplikasi Manpower Management. Kamu bisa melamar sebanyak yang kamu mau dan siap untuk dikonfirmasi oleh team tour kami."/>
+
+
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

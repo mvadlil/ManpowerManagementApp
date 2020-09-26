@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "116326001171",
+    "firebase_url": "https://manpower-management.firebaseio.com",
+    "project_id": "manpower-management",
+    "storage_bucket": "manpower-management.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116326001171:android:834f3682f2da2c1b0d6de6",
+        "android_client_info": {
+          "package_name": "firstbelajar.duatujuh.manpowermanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116326001171-13ap1ddm518g8f3jfks9f8p136hhjpt2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyEeecBqd9jxNC6C5N0niupur-W_o65UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116326001171-13ap1ddm518g8f3jfks9f8p136hhjpt2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

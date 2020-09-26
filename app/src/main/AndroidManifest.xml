@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="firstbelajar.duatujuh.manpowermanagement">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SupportAct"></activity>
+        <activity android:name=".ItineraryView2Act" />
+        <activity android:name=".Maps2Act" />
+        <activity android:name=".TourLeaderViewAct" />
+        <activity android:name=".ItineraryViewAct" />
+        <activity android:name=".Maps1Act" />
+        <activity android:name=".EditProfileAct" />
+        <activity android:name=".JobDetailsNext2Act" />
+        <activity android:name=".JobDetailsNextAct" />
+        <activity android:name=".MyProfileAct" />
+        <activity android:name=".JobCheckoutSuccess" />
+        <activity android:name=".JobCheckout2Act" />
+        <activity android:name=".JobCheckoutAct" />
+        <activity android:name=".JobDetails2Act" />
+        <activity android:name=".JobDetailsAct" />
+        <activity android:name=".JobPreview2Act" />
+        <activity android:name=".JobPreviewAct" />
+        <activity android:name=".JobListManpowerAct" />
+        <activity android:name=".JobListTourAct" />
+        <activity android:name=".HomeAct" />
+        <activity android:name=".RegisterSuccessAct" />
+        <activity android:name=".RegisterTwoAct" />
+        <activity android:name=".RegisterOneAct" />
+        <activity android:name=".SigninAct" />
+        <activity android:name=".GetStartedAct" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

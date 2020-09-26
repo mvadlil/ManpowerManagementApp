@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#37B34A</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="MyGreen">#37B34A</color>
+    <color name="MiniTextGrey">#8D8D8D</color>
+    <color name="BigTextGrey">#B9B9B9</color>
+    <color name="LightGreen">#87AFA0</color>
+    <color name="MyBlack">#21272C</color>
+    <color name="bgPrimary">#EDF1F8</color>
+    <color name="grabnow">#1ABC9C</color>
+
+</resources>
